@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="rekenmachinejava.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="rekenjava.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+<title> Rekenmachine versie Javascript 1.0</title>
+</head>
+
+<body>
+<div class="main">
+	<div class="koptext">
+		<h1>Rekenmachine JS</h1>
+	</div>
+	<form action="" method="post" id="form-box">
+	<input type="number" class="inp" name="num1"  id="numberone" required placeholder="voer hier uw eerste getal in...">
+	<input type="number" class="inp" name="num2"  id="numbertwo" placeholder="voer hier uw tweede getal in...">
+
+	<input type="button" name="submit" class="btn" value="plus" onclick="plus()"></button>
+	<button type="button" value="min" class="btn" onclick="min()">min</button>
+
+	<input type="button" name="submit" class="btn" value="keer" onclick="keer()"></button>
+	<input type="button" name="submit" class="btn" value="delen" onclick="delen()"></button>
+	<input type="button" name="submit" class="btn" value="wortel" onclick="wortel()"></button>
+	<input type="button" name="submit" class="btn" value="kwadraat" onclick="kwadraat()"></button>
+	<input type="button" name="submit" class="btn" value="macht" onclick="macht()"></button>
+	<input type="button" name="submit" class="btn" value="tafel" onclick="tafel()"></button>
+
+	<input type="reset" name="submit" class="btn" value="C">
+
+
+
+</form>
+<div style="margin-left:150px" class style="padding-left: 10px;">
+	 <div id="answer" class="result">	
+
+	  </div>
+	</div>
+
+ </div>
+</div>
+
+</body>
+</html>

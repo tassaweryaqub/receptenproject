@@ -1,0 +1,34 @@
+body{
+    background-color:#f3f3f3; 
+    font-family: arial;
+    height:100%; 
+    margin-top:auto;
+}
+
+.article-container {
+    width:900px; 
+    background-color: white; 
+    padding:30px; 
+}
+
+.article-box{
+    padding-bottom: 30px; 
+    width:100%; 
+}
+
+input{
+    padding:0px 20px;
+    width:300px; 
+    height:44px; 
+    font-size: 22px; 
+}
+
+button{
+    
+    width: 100px; 
+    height: 44px; 
+    font-size: 22px; 
+    
+}
+
+

@@ -1,0 +1,71 @@
+{
+margin:0; 
+padding: 0; 
+-webkit-box-sizing:border-box; 
+-moz-box-sizing:border-box: 
+box-sizing:border-box
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+ 
+body{
+
+background-color: #dc143c;
+}
+
+.main{
+	width:400px;
+	margin:50px auto;
+	background-color: #C13B48;
+	box-shadow: 0 0 10px 1px #000; 
+	position: relative;
+}
+
+#form-box{
+	padding:15px;
+}
+
+.inp{
+	width:90%;
+	padding:15px;
+	font-size:20px;
+	margin-bottom:10px;
+	border:none;
+	color:#c11;
+	border-radius:20px;
+}
+
+inp.focus{
+	outline: none;
+	box-shadow:  1px 2px 5px #000; 
+}
+::-webkit-input-placeholder{
+	color:#c66;
+}
+
+.btn{
+	width: 20%;
+	padding:8px;
+	margin-bottom: 5px; 
+	border:none;
+	cursor: pointer;
+	box-shadow:  0 0 25px #000 inset, 1px 1px 1px #000; 
+	font-size:18px;
+}
+.btn:focus{
+	outline: none;
+	background-color: #dc143c;
+	color:#fff;
+}
+.antwoord{
+	width: 96%;
+	text-align:center;
+	background-color: #847E7E;
+	color:#fff;
+	padding:8px;
+}
+
+.koptext h1{
+	text-align: center;
+	color:blue;
+}
+
